@@ -64,5 +64,4 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           packageManager: npm
-          workingDirectory: dist/practice4
-          command: deploy
+          command: deploy --config dist/practice4/wrangler.json
