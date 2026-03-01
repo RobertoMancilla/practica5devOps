@@ -16,4 +16,9 @@
 	"compatibility_flags": [
 		"nodejs_compat"
 	],
+	"env": {
+		"production": {
+			"name": "practice4-prod"
+		}
+	}
 }
